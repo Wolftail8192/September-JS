@@ -38,16 +38,18 @@
 
     // 3. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр, автори
 
-    // let book={
-    //     назва:'назва',
-    //     кількість_сторінок: 'кількість сторінок',
-    //     жанр:'жанр',
-    //     автори:'автори'
-    //
-    // }
-    // console.log(book)
+    let book={
+        назва:'назва',
+        кількість_сторінок: 'кількість сторінок',
+        жанр:'жанр',
+        автори:'автори'
+
+    }
+    console.log(book)
 
     // 4. Створити маис об'єктів book з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
+
+    let books = ['назва', 'кількість сторінок', 'жанр, автори'];
 
 
 
@@ -86,34 +88,153 @@
     // homework
     // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
     //     Вивести кожну змінну за допомогою: console.log , alert, document.write
+    let arrow = ['hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false];
+    console.log(arrow[0]);
+    alert(arrow[0]);
+    document.write(arrow[0]);
+
+    console.log(arrow[1]);
+    alert(arrow[1]);
+    document.write(arrow[1]);
+
+
+    console.log(arrow[2]);
+    alert(arrow[2]);
+    document.write(arrow[2]);
+
+    console.log(arrow[3]);
+    alert(arrow[3]);
+    document.write(arrow[3]);
+
+    console.log(arrow[4]);
+    alert(arrow[4]);
+    document.write(arrow[4]);
+
+    console.log(arrow[5]);
+    alert(arrow[5]);
+    document.write(arrow[5]);
+
+    console.log(arrow[6]);
+    alert(arrow[6]);
+    document.write(arrow[6]);
+
+    console.log(arrow[7]);
+    alert(arrow[7]);
+    document.write(arrow[7]);
+
+    console.log(arrow[8]);
+    alert(arrow[8]);
+    document.write(arrow[8]);
+
+    console.log(arrow[9]);
+    alert(arrow[9]);
+    document.write(arrow[9]);
+
+    console.log(arrow[10]);
+    alert(arrow[10]);
+    document.write(arrow[10]);
+
+    console.log(arrow[11]);
+    alert(arrow[11]);
+    document.write(arrow[11]);
+
+    console.log(arrow[12]);
+    alert(arrow[12]);
+    document.write(arrow[12]);
+
     // - Переприсвоїти кожній змінній з завдання значення на довільне.
     //     Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+    (arrow[1])='hjtyty';
+    console.log(arrow[1]);
+    (arrow[2])='tykjbkty';
+    console.log(arrow[2]);
+    (arrow[3])='tyjihgliuty';
+    console.log(arrow[3]);
+    (arrow[4])='tygkytfkty';
+    console.log(arrow[4]);
+    (arrow[5])='uyfktftyty';
+    console.log(arrow[5]);
+    (arrow[6])='ewzewxrgtyty';
+    console.log(arrow[6]);
+    (arrow[7])='bnvngfxhdtyty';
+    console.log(arrow[7]);
+    (arrow[8])='pijhoyityty';
+    console.log(arrow[8]);
+    (arrow[9])='poijhgjbhgtyty';
+    console.log(arrow[9]);
+    (arrow[10])='oiuyttyty';
+    console.log(arrow[10]);
+    (arrow[11])='drthhbljkhjbtyty';
+    console.log(arrow[11]);
+    (arrow[12])='tyty';
+    console.log(arrow[12]);
+
     // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+
+
+    let firstName = 'Evgeniy';
+    let middleName = 'Mihaylovich';
+    let lastName = 'Dembitskiy';
+    let person = `${firstName} ${middleName} ${lastName}`;
+    console.log(person);
+
     // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
     //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
+    let ім_я = prompt('ім я');
+    let по_батькові = prompt('по батькові');
+    let ваш_вік = prompt('ваш вік');
+    let Вітаю = `${ім_я} ${по_батькові} ${ваш_вік}`;
+    console.log(Вітаю)
+
     // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
     //     let a = 100; let b = '100'; let c = true;
+
+    let aa = 100;
+    let bb = '100';
+    let cc = true;
+            console.log(typeof 100);
+            console.log(typeof '100');
+            console.log(typeof true);
+
+
     // - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
     //     В однакових виразах не використовувати однакові оператори!!!
-    //     5 ? 6 -> true
+    // 5 ? 6 -> true
+    5<6
     // 5 ? 6 -> false
+    5>6
     // 5 ? 6 -> false
+    5==6
     // 5 ? 6 -> false
+    5===6
     // 10 ? 10 -> true
+    10==10
     // 10 ? 10 -> true
+    10===10
     // 10 ? 10 -> false
+    10>10
     // 10 ? 10 -> false
+    10<10
     // 10 ? 10 -> false
+    10>=10
     // 123 ? '123' -> false
+    123>123
     // 123 ? '123' -> true
+    123==123
     //
     // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
-    //     let str = "20";
-    // let a = 5;
-    // document.write(str + a + "<br/>");
-    // document.write(str - a + "<br/>");
-    // document.write(str * "2" + "<br/>");
-    // document.write(str / 2 + "<br/>");
+        let str = "20";
+    let h = 5;
+    document.write(str + h + "<br/>");
+    // 205
+    document.write(str - h + "<br/>");
+    // 15
+    document.write(str * "2" + "<br/>");
+    // 40
+    document.write(str / 2 + "<br/>");
+    // 10
 
 </script>
 </body>
