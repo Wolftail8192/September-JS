@@ -205,11 +205,31 @@
 //     }
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 //         debugger;
-        i>=0;
-        while(i=arr.length-1){
-            console.log(arr[i]);
-            i--;
-        }
+//         i>=0;
+//         while(i=arr.length-1){
+//             console.log(arr[i]);
+//             i--;
+//         }
+
+    // for (let  j = arr.length-1; j >= 0; j--) {
+    //     const arrElement = arr[j];
+    //     console.log(arr[j]);
+    // }
+    //     for (let  j = arr.length-1; j >= 0; j--) {
+    //     const arrElement = arr[j];
+    //     if (j%3===0){
+    //         console.log(arr[j])
+    //     }
+    //
+    // }
+//     for (let i = arr.length-1; i>=0; i--) {
+//     const arrElement = arr[i];
+//     if (i%2===0){
+//         console.log(i)
+//     }
+//
+// }
+
 // additional
 // 1. Створити пустий масив та :
 //         a. заповнити його 50 парними числами за допомоги циклу.
