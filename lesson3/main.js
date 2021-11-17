@@ -35,7 +35,7 @@
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
     // let i=0;
-    //   while (i<20); {
+    //   while (i<20) {
     //     document.write('<h1> item  </h1>');
     //     i++;
     //   }
@@ -44,7 +44,7 @@
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 // let i=0;
-// while (i<20); {
+// while (i<20) {
 //     document.write(`<h1> item ${i+1}  </h1>`);
 //     i++;
 // }
@@ -143,15 +143,73 @@
 //
 // classwork
 // зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
+    let arr=[2,17,13,6,22,31,45,66,100,-18];
 //         1. перебрати його циклом while
+//     i=0;
+//     while(i<arr.length){
+//         console.log(arr[i]);
+//         i++;
+//     }
 //         2. перебрати його циклом for
+//     for (let j = 0; j < arr.length; j++) {
+//         const arrElement = arr[j];
+//         console.log(arr[j]);
+
+// }
 //         3. перебрати циклом while та вивести  числа тільки з непарним індексом
+//         i=0;
+//         while(i<arr.length){
+//             if(i%3===0){
+//                 console.log(arr[i]);
+//             }
+//             i++;
+//         }
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+//     for (let i = 0; i < arr.length; i++) {
+//         const arrElement = arr[i];
+//         if (i%3===0){
+//             console.log(arr[i])
+//         }
+//
+//     }
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
+//         i=0;
+//         while(i<arr.length){
+//             let index = arr[i];
+//             if(i%3===0){
+//                 console.log(index);
+//             }
+//             i++;
+//         }
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
+// for (let i = 0; i < arr.length; i++) {
+//     const arrElement = arr[i];
+//     if (i%2===0){
+//         console.log(i)
+//     }
+//
+// }
 // 7. замінити кожне число кратне 3 на слово "okten"
+// for (let i = 0; i < arr.length; i++) {
+//     const arrElement = arr[i];
+//     if(i%3===0){
+//         i='okten'
+//     }
+//     console.log(i)
+// }
 // 8. вивести масив в зворотньому порядку.
+//     for (let i = arr.length-1; i>=0; i--) {
+//         const arrElement = arr[i];
+//         console.log(arrElement);
+//
+//     }
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+//         debugger;
+        i>=0;
+        while(i=arr.length-1){
+            console.log(arr[i]);
+            i--;
+        }
 // additional
 // 1. Створити пустий масив та :
 //         a. заповнити його 50 парними числами за допомоги циклу.
