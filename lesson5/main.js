@@ -184,9 +184,32 @@ let reverse=(arr)=> {
 //
 // additional
 // - Дано натуральное число n. Выведите все числа от 1 до n.
-
+function numberOutput(n) {
+    return n ? numberOutput(n - 1) + n.toString() : "";
+}
+console.log(numberOutput(19));
 // - Даны два целых числа A и В . Выведите все числа от A до B включительно, в порядке возрастания, если A < B,
 // или в порядке убывания в противном случае.
+function stringRecursion(a, b) {
+
+    if (a > b) {
+
+    if (a == b) {
+    return Integer.toString(a);
+}
+
+return a + " " + recursion(a - 1, b);
+} else {
+
+    if (a == b) {
+        return Integer.toString(a);
+    }
+
+    return a + " " + recursion(a + 1, b);
+}
+}
+
+stringRecursion(2,9)
 //
 //
 // -   функція Приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
