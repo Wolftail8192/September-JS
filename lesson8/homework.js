@@ -25,3 +25,5 @@ document.body.style.backgroundColor = 'blue'
 let getListClasses = document.getElementById(rules)
 console.log(getListClasses)
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
+let changeColor = document.getElementsByClassName(fc_rules)
+document.body.changeColor.style.color = 'red'
