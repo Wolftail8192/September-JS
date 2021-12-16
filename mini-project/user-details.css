@@ -1,0 +1,30 @@
+.mainWrap{
+    font-size: 32px;
+    text-align: center;
+    background: greenyellow;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    background: greenyellow;
+    border-radius: 20px;
+}
+button{
+    width: 90%;
+    border: 3px solid red;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    width: 20%;
+    display: inline-block;
+    background: greenyellow;
+    border-radius: 20px;
+    margin-top: 30px;
+}

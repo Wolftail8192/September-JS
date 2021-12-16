@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+    background: cornflowerblue;
+    width: 100%;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 32px;
+
+}
+div{
+    width: 49.7%;
+    border: 2px solid greenyellow;
+    display: grid;
+    border-radius: 50px;
+}
+
+
+button{
+    margin: 10px;
+    background: greenyellow;
+    padding: 2px;
+    width: 70%;
+    border-radius:50px;
+    margin-left: 15%;
+    border: 1px solid black;
+}
